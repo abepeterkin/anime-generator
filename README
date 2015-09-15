@@ -1,0 +1,12 @@
+Use this program to generate a random anime title and publish it to a Tumblr blog!
+Compile the project with Maven and run Main in the abe.anime_generator package. 
+The argument structure is:
+
+<consumerKey> <consumerSecret> <token> <tokenSecret>
+
+If there are no arguments, the program generates a random title and
+prints it to standard output instead of publishing it to a blog.
+
+The dictionary is located in src/titlecards.txt. All words in this version 
+were taken from Channel A, a fantastic card game by Asmadi Games. 
+I am not affiliated with them in any way.
